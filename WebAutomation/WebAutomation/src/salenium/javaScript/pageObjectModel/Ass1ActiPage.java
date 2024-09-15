@@ -40,7 +40,6 @@ public class Ass1ActiPage {
     {
         return gettingStartedShortcutsMenuCloseId;
     }
-
     //Clicking Users
     @FindBy(xpath = "//div[text()='USERS']")
     private WebElement clickingUsers;
@@ -141,6 +140,19 @@ public class Ass1ActiPage {
         return saveChanges;
     }
 
+    //Delete user
+    @FindBy(xpath = "//span[text()='M, User1']")
+    private WebElement clickModifyUser;
+    public WebElement getModifyUserWindow()
+    {
+        return clickModifyUser;
+    }
+
+    private WebElement userDataLightBox_deleteBtn;
+    public WebElement getDeleteuser()
+    {
+        return userDataLightBox_deleteBtn;
+    }
 
     //Logout link field
     @FindBy(linkText = "Logout")

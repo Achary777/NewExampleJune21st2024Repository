@@ -1,5 +1,6 @@
 package salenium.javaScript.pageObjectModel;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +12,7 @@ public class Ass1CreateUser {
         minimizeFlyOutwindow();
         CreatingUser();
         modifyUser();
+        deleteUser();
         logOut();
         appClose();
 
@@ -120,6 +122,26 @@ public class Ass1CreateUser {
                 oPage.getSaveChanges().click();
                 Thread.sleep(3000);
             } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        private static void deleteUser()
+        {
+            try{
+                oPage.getModifyUserWindow().click();
+                Thread.sleep(2000);
+
+                oPage.getDeleteuser().click();
+                Thread.sleep(2000);
+
+                Alert objAlert=oBrowser.switchTo().alert();
+                String content=objAlert.getText();
+                System.out.println(content);
+                objAlert.accept();
+                Thread.sleep(2000);
+            }catch(Exception e)
+            {
                 e.printStackTrace();
             }
         }
