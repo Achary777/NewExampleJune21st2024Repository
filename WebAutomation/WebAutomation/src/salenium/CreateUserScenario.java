@@ -11,11 +11,11 @@ public class CreateUserScenario {
         launchBrowser();
         navigateURL();
         login();
-        minimizeFlyoutWindow();
+//        minimizeFlyoutWindow();
         createUser();
-        deleteUser();
-        logout();
-        closeApp();
+//        deleteUser();
+//        logout();
+//        closeApp();
     }
 
     private static void launchBrowser()
@@ -34,7 +34,7 @@ public class CreateUserScenario {
     {
         try
         {
-            oBrowser.get("http://localhost/login.do");
+            oBrowser.get("http://localhost:81/login.do");
             Thread.sleep(4000);
         }catch (Exception e)
         {

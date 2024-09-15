@@ -1,4 +1,4 @@
-package com.sgtesting.pageobjectmodel;
+package salenium.javaScript.pageObjectModel;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,4 +1,4 @@
-package com.sgtesting.pageobjectmodel;
+package salenium.javaScript.pageObjectModel;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,8 +17,9 @@ public class ActiPage {
     {
         return username;
     }
+
     //Password Text Field
-    private WebElement pwd;
+    private WebElement pwd;   //id = pwd
     public WebElement getPassword()
     {
         return pwd;
