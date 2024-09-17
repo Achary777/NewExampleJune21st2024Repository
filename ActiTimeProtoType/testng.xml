@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test
+          name="Tests cases">
+        <classes>
+
+            <class name="org.example.tests.LoginLogoutTest"></class>
+            
+            <class name="org.example.tests.Assignment1"></class>
+            
+            <class name="org.example.tests.Assignment2"></class>
+            
+            <class name="org.example.tests.Assignment3"></class>
+            
+            <class name="org.example.tests.Assignment4"></class>
+     
+            <class name="org.example.tests.Assignment5"></class>
+
+            <class name="org.example.tests.Assignment6"></class>
+            
+            <class name="org.example.tests.Assignment7"></class>
+
+        </classes>
+    </test>
+</suite>
