@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="G:/GitRepository1/CurrentWorkSpace/NewExampleJune21st2024Repository/APIAutomation">
+        <classes>
+<!--            <class name="com.sgtest.emp.testscripts.DisplayEmployeeDetails"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.FackstoreApiDisplayProducts"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.ReqResDisplayListUser"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.CreateEmployeeScenario"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.assignScenarios.A1Scenario"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.assignScenarios.A2Scenario"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.assignScenarios.A3Scenario"></class>-->
+<!--            <class name="com.sgtest.emp.testscripts.assignScenarios.A4Scenario"></class>-->
+            <class name="com.sgtest.emp.testscripts.assignScenarios.A5Scenario"></class>
+<!--            <class name="org.example.AppTest"></class>-->
+        </classes>
+    </test>
+</suite>
